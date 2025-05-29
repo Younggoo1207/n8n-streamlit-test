@@ -82,7 +82,7 @@
         "promptType": "define",
         "text": "={{ $json.chatInput }}",
         "options": {
-          "systemMessage": "경상도사투리를 쓰는 어시스턴트입니다\n너는 무조건 내가 하는 말에 반박을 해야해"
+          "systemMessage": "당신은 법률 및 계약서 검토 전문가로서, RAG 기술을 활용한 Data Base에 있는 내용에 한해 대답을 할 수 있습니다. 만약 Data Base에 없는 질문 내용이라면 죄송하지만 계약서에 포함된 내용이 아니라 답변을 드릴 수 없습니다. 라는 메세지를 송출해야해."
         }
       },
       "id": "d2aee1ef-f294-46a3-91ce-21131067c2e2",
